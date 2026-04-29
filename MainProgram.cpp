@@ -137,6 +137,14 @@ public:
 // ============================================================
 int main() {
     // TODO 17-21: demo code
+    Rectangle r1(2, 3,4,5);
+    Rectangle r2(6,7,8,9);
+    r1.display();
+    r2.display();
+    r1.getWidth();
+    r2.getWidth();
+    r1.getHeight();
+    r2.getHeight();
     std::cout << "Complete the TODOs above!" << std::endl;
     return 0;
 }
