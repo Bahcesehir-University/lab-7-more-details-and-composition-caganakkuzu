@@ -127,7 +127,7 @@ public:
     int constGetDouble() const
     {
         return value * 2;
-        return 0;
+        
     }  // stub — add const + fix body
 };
 
